@@ -9,7 +9,7 @@ The purpose of this analysis was to analyze the data that was collected from sch
 
 ## Reviewing Results
 
-1. How is the district summary affected?
+**1. How is the district summary affected?**
 ![District_Summary_df](https://user-images.githubusercontent.com/78178900/113541528-4418ac00-9597-11eb-8078-853553cef967.png)
 ![District_Summary_df New](https://user-images.githubusercontent.com/78178900/113541543-4975f680-9597-11eb-8d05-38bcd4dc7658.png)
   - Average Math Score decreased by 0.1%
@@ -17,7 +17,7 @@ The purpose of this analysis was to analyze the data that was collected from sch
   - % Passing Reading decreased by 0.3%
   - % Overall Passing decreased by 0.1%
 
-2. How is the school summary affected?
+**2. How is the school summary affected?**
 ![Per_School_Summary_df(1)](https://user-images.githubusercontent.com/78178900/113541552-509d0480-9597-11eb-9549-d1d7d67e501d.png)
 ![Per_School_Summary_df(2)](https://user-images.githubusercontent.com/78178900/113541559-5692e580-9597-11eb-9b49-f3a22e2a54a1.png)
 ![Per_School_Summary_df New](https://user-images.githubusercontent.com/78178900/113543656-ab385f80-959b-11eb-9297-58f6db50d988.png)
@@ -28,13 +28,13 @@ The purpose of this analysis was to analyze the data that was collected from sch
   - % Overall Passing went from 91%-65%
 
 
-3. How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+**3. How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?**
 
 There were three different categories that were affected for the per_school_summary_df data frame under the row for Thomas High School: Percent Passing Math, Percent Passing Reading, Percent Overall Passing. All three sections suffered large percentage decreases of 26%, 27% and 26%. This caused them to go from the 90th percentile to the 65th-70th percentile in all three of those sections.
 
-4. How does replacing the ninth-grade scores affect the following:
+**4. How does replacing the ninth-grade scores affect the following:**
 
-4a. Math and reading scores by grade
+**4a. Math and reading scores by grade**
 
 ![Math_Scores_by_Grade](https://user-images.githubusercontent.com/78178900/113541604-6f9b9680-9597-11eb-98ea-9d457e6a1b21.png)
 ![Avg_Math_Score_df](https://user-images.githubusercontent.com/78178900/113541611-732f1d80-9597-11eb-8b18-b71400d057fa.png)
@@ -46,7 +46,7 @@ There were three different categories that were affected for the per_school_summ
 
   - The affect on the Reading score by grade is the same result as the affect on the Math score by grade: we don't have an average score metric for Reading in the 9th grade class at Thomas High School so the value is "nan".
 
-4b. Scores by school spending
+**4b. Scores by school spending**
 ![Spending_Summary_df](https://user-images.githubusercontent.com/78178900/113541643-80e4a300-9597-11eb-988a-e105dee0bf80.png)
 ![Spending_Summary_df New](https://user-images.githubusercontent.com/78178900/113541652-84782a00-9597-11eb-9e34-0c7a2c96395f.png)
 
@@ -55,7 +55,7 @@ There were three different categories that were affected for the per_school_summ
   - $630 - $644 Average Reading score went down by 0.2%
   - $645 - $675 There was no noticable change in this range of spending
 
-4c. Scores by school size
+**4c. Scores by school size**
 
 ![Size_Summary_df](https://user-images.githubusercontent.com/78178900/113541656-87731a80-9597-11eb-902c-0c8599da9259.png)
 ![Size_summary_df New](https://user-images.githubusercontent.com/78178900/113541665-8b06a180-9597-11eb-9dd7-626195421823.png)
@@ -64,7 +64,7 @@ There were three different categories that were affected for the per_school_summ
   - Medium(1,000-2,000): Average Math score increased by 0.2% and Average Reading score decreased by 0.1% and % Passing Math increased by 1.0%
   - Large(2,000-5,000): Average Math score decreased by 0.1% and Average Reading score decreased by 0.1%
 
-4d. Scores by school type
+**4d. Scores by school type**
 
 ![Type_Summary_df](https://user-images.githubusercontent.com/78178900/113541674-8e019200-9597-11eb-83f7-2439570b8c04.png)
 ![Type_Summary_df New](https://user-images.githubusercontent.com/78178900/113541676-8fcb5580-9597-11eb-9993-e78d90311948.png)
